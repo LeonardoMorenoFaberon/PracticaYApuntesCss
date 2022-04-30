@@ -134,7 +134,7 @@ var arrUnoPositionAbsoluteCssProperties =[
 agregarEstiloAlArray(unopositionabsolute, 'position',  "absolute");
 
 function agregarEstiloAlArray( elemento , estilo , valor){
-    elemento[0].style.estilo= valor;
+    elemento[0].style.estilo = valor;
     
     arrUnoPositionAbsoluteCssProperties.push(estilo)
 }
